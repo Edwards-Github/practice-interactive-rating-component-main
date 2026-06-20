@@ -89,3 +89,22 @@ body {
   color: black;
   background-color: hsl(217, 12%, 63%);
 }
+
+@media (max-width: 375px) {
+  .container {
+    width: 350px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 375px) {
+  .submit-button {
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .button {
+    margin-right: 15px;
+  }
+}
