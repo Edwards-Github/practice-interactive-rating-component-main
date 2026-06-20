@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.container {
+  width: 400px;
+  height: 365px;
+  border-radius: 25px;
+  padding: 25px;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+.star-icon {
+  padding: 10px;
+  border-radius: 25px;
+  background-color:  hsl(213, 19%, 18%);
+}
+
+.user-rating {
+  height: 25px;
+  width: 200px;
+  color: hsl(25, 97%, 53%);
+  background-color:hsl(213, 19%, 18%);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.survey-question {
+  color: hsl(0, 100%, 100%);
+}
+
+.survey-description {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  margin-right: 26px;
+  font-weight: 700;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 700;
+}
+
+.button:active {
+  color: black;
+  background-color: hsl(217, 12%, 63%);
+  font-weight: 700;
+}
+
+.submit-button {
+  cursor: pointer;
+  height: 40px;
+  width: 325px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-weight: 700;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit-button:active {
+  color: black;
+  background-color: hsl(217, 12%, 63%);
+}
